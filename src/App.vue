@@ -1,8 +1,13 @@
 <template>
   <div id="app">
-    <h1>Re<img src="./assets/logo.png">ues</h1>
-    <hello></hello>
-    <review-cards></review-cards>
+    <div class="container">
+      <div class="row">
+        <h1>Re<img src="./assets/logo.png">ues</h1>
+        <hello class="col-md-6"></hello>
+        <!--v-show on ads vs reviews-->
+        <review-cards class="col-md-6"></review-cards>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -27,5 +32,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+p {
+  color: red;
 }
 </style>
