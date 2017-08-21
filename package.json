@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "vue": "^2.2.6",
+<<<<<<< HEAD
     "vue-router": "^2.7.0"
+=======
+    "vue-router": "^2.5.3"
+>>>>>>> beae641e54ba14bfe6d1cccd269a33f781ba2f84
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
